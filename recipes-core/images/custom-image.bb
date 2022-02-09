@@ -17,3 +17,6 @@ IMAGE_ROOTFS_SIZE ?= "204800"
 EXTRA_USERS_PARAMS = "\
     usermod -P 'toor' root \
     "
+
+# Include our custom application
+IMAGE_INSTALL += "gettemp"
